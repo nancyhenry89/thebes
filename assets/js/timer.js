@@ -40,8 +40,8 @@ var x = setInterval(function() {
 	seconds = pad(seconds);
 	
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + " DAYS " + hours + ":"
-    + minutes + ":" + seconds + "";
+    document.getElementById("demo").innerHTML = hours + " : "
+    + minutes + " : " + seconds + "";
     
     // If the count down is over, write some text 
     if (distance < 0) {
